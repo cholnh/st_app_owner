@@ -1,0 +1,57 @@
+name: stappowner
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+
+  provider: ^4.0.1
+
+  dio: ^3.0.8
+
+  shared_preferences: ^0.5.3+5
+
+  injector: ^1.0.8
+
+  modal_progress_hud: ^0.1.3
+
+  json_annotation: ^3.0.1
+
+  path: any
+
+  time: ^1.2.0
+
+  pull_to_refresh: ^1.5.7
+
+  fluttertoast: ^3.1.3
+
+  flutter_inner_drawer: ^0.5.6+1
+
+  get: ^2.6.3
+
+  flutter_google_maps: ^3.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  intl_translation: ^0.17.1
+
+  build_runner: ^1.0.0
+
+  json_serializable: ^3.2.5
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
